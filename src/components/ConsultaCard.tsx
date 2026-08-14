@@ -162,10 +162,10 @@ const styles = StyleSheet.create({
     backgroundColor: "#4CAF50",
   },
   botaoCancelar: {
-    backgroundColor: "#f44336",
+    backgroundColor: "#F44336",
   },
   botaoDetalhes: {
-    backgroundColor: "transparent",
+    backgroundColor: "#fff",
     borderWidth: 1,
     borderColor: "#79059C",
   },
