@@ -11,7 +11,6 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { useAuth } from "../contexts/AuthContext";
 import {
   HomeScreen,
-  MedicoHomeScreen,
   ConsultasListScreen,
   ConsultaDetalhesScreen,
   NovaConsultaScreen,
@@ -22,6 +21,7 @@ import {
   AgendamentoScreen,
   PressaoArterialScreen,
 } from "../screens";
+import MedicoHomeScreen from "../screens/MedicoHomeScreen";
 
 // Tipagem das rotas (boas práticas de TypeScript)
 export type RootStackParamList = {
